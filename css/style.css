@@ -300,3 +300,11 @@ margin-right: -550px;
 .vid_last{
 top: -2000px;
 }
+.footer{
+  content:url(../images/footer.png);
+  width: 1500px;
+  position: relative;
+  margin: 0 auto;
+      top: 155px;
+
+}
