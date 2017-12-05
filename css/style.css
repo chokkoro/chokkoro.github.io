@@ -105,11 +105,11 @@ letter-spacing: 0.5px;
 .intro_tekst{
   text-align: center;
   position: relative;
-     top: 1000px;
+     top: 1020px;
 font-family: 'Source Sans Pro', sans-serif;
   }
 
-.intro_tekst h3{
+.intro_tekst p{
   font-size: 40px;
 }
 
@@ -136,33 +136,33 @@ left: -300px;
 
 .map_mobil{
   content:url(../images/map_mobil.png);
-  width: 1300px;
+  width: 1400px;
 z-index: 2;
   position: relative;
   margin: 0 auto;
-      top: 650px;
+      top: 680px;
   z-index: 2;
 
 }
 .map_mobil2{
   content:url(../images/map_mobil2.png);
-  width: 1300px;
+  width: 1400px;
 
   position: relative;
   margin: 0 auto;
-      top: 133px;
+      top: 125px;
 }
 .map_mobil3{
   content:url(../images/map_mobil3.png);
-  width: 1300px;
+  width: 1400px;
 
   position: relative;
   margin: 0 auto;
-      top: -380px;
+      top: -435px;
 }
 
 .animate{
-  transition: 2s ease-in-out;
+  transition: 1s ease-in-out;
 animation-fill-mode: forwards;
 animation-duration: 1s;
 }
@@ -178,7 +178,7 @@ animation-duration: 1s;
 .map2_tekst{
   position: relative;
   text-align: center;
-  top: -220px;
+  top: -328px;
 margin-right: -550px;
 }
 
@@ -191,30 +191,30 @@ margin-right: -550px;
 
 .map2_mobil{
   content:url(../images/map2_mobil.png);
-  width: 1500px;
+  width: 1400px;
 z-index: 2;
   position: relative;
   margin: 0 auto;
-      top: -550px;
+      top: -680px;
   z-index: 2;
 
 }
 .map2_mobil2{
   content:url(../images/map2_mobil2.png);
-  width: 1500px;
+  width: 1400px;
   position: relative;
   margin: 0 auto;
-      top: -1233px;
+      top: -1315px;
 }
 
 .map2_mobil2.animate{
-  transform: translate(15em,0);
+  transform: translate(12em,0);
 }
 
 .tracking_tekst{
     position: relative;
     text-align: center;
-  top: -1105px;
+  top: -1124px;
   left: -350px;
   }
 
@@ -229,45 +229,45 @@ z-index: 2;
 
   .tracking_mobil{
     content:url(../images/tracking.png);
-    width: 1300px;
+    width: 1400px;
   z-index: 2;
     position: relative;
     margin: 0 auto;
-        top: -1310px;
+        top: -1350px;
 
 
   }
   .tracking_screen{
     content:url(../images/tracking_screen.png);
-    width: 1300px;
+    width: 1400px;
     position: relative;
     margin: 0 auto;
-        top: -1902px;
+        top: -1985px;
             z-index: 2;
   }
 
   .tracking_screen2{
     content:url(../images/tracking_screen2.png);
-    width: 1300px;
+    width: 1400px;
     position: relative;
     margin: 0 auto;
-        top: -2490px;
+        top: -2620px;
         z-index: 2;
   }
 
   .tracking_screen.animate{
-    transform: translate(0,-6em);
+    transform: translate(0,-7em);
   }
 
   .tracking_screen2.animate{
-    transform: translate(0,-12em);
+    transform: translate(0,-14em);
   }
 
 
   .save_tekst{
       position: relative;
       text-align: center;
-    top: -2155px;
+    top: -360px;
 margin-right: -550px;
     }
 
@@ -281,19 +281,22 @@ margin-right: -550px;
 
     .save{
       content:url(../images/save.png);
-      width: 1300px;
+      width: 1400px;
     z-index: 2;
       position: relative;
       margin: 0 auto;
-          top: -2521px;
+          top: -790px;
       z-index: 2;
 
     }
     .save2{
       content:url(../images/save2.png);
-      width: 1300px;
+      width: 1400px;
       position: relative;
       margin: 0 auto;
-          top: -3110px;
+          top: -1425px;
 
     }
+.vid_last{
+top: -2000px;
+}
