@@ -1,0 +1,299 @@
+*
+{margin:0;
+padding:0;}
+
+p {
+font-family: 'Source Sans Pro', sans-serif;
+  color: black;
+  font-size: 20px;
+}
+
+h4{
+  font-family: 'Source Sans Pro', sans-serif;
+    color: black;
+    font-size: 40px;
+}
+
+body{
+  background-image: url(../images/web2.png);
+    background-repeat: no-repeat;
+  background-size: 1500px;
+  height: 6000px;
+  margin: 0 auto;
+background-position: center 100px;
+    background-attachment: scroll;
+}
+
+
+
+.header_vid{
+  position:absolute;
+  right:0;
+  bottom: 0;
+  min-width:100%;
+  min-height: 100%;
+  width: auto;
+  height: auto;
+ z-index: -100;
+}
+
+@media (min-aspect-ratio: 16/9) {
+  .header_vid{
+    width: 100%;
+    height: auto;
+  } }
+
+  @media (max-aspect-ratio: 16/9) {
+    .header_vid{
+      width: auto;
+      height: 100%;
+    } }
+
+.nav{
+
+}
+
+.logo{
+  margin:15px 15px;
+  height: 50px;
+}
+
+.menu{
+  float:right;
+  list-style: none;
+  margin: 20px;
+}
+
+.menu li{
+  display: inline-block;
+  margin: 5px 2px;
+}
+
+.menu li a{
+  text-decoration: none;
+  color: white;
+  padding: 5px 10px;
+font-family: 'Source Sans Pro', sans-serif;
+font-size: 17px;
+}
+
+.menu li a:hover{
+  border-bottom: 1px solid #fff;
+  transition: .4s;
+}
+
+
+.msg{
+  position: relative;
+  text-align: center;
+font-family: 'Source Sans Pro', sans-serif;
+color: #fff;
+top: 80px;
+left: -300px;
+}
+
+.msg h1{
+  font-size: 55px;
+  margin: 15px;
+}
+.msg h2{
+  font-size: 25px;
+letter-spacing: 0.5px;
+}
+
+
+.intro_tekst{
+  text-align: center;
+  position: relative;
+     top: 1000px;
+font-family: 'Source Sans Pro', sans-serif;
+  }
+
+.intro_tekst h3{
+  font-size: 40px;
+}
+
+.map_tekst{
+  position: relative;
+  text-align: center;
+top: 1600px;
+left: -300px;
+}
+
+.map_tekst h4{
+  margin: 15px;
+}
+.map_tekst p{
+  margin: 15px;
+}
+
+#scroll {
+  margin-top: 600px;
+  margin-bottom: 200px;
+  text-align: center;
+}
+
+
+.map_mobil{
+  content:url(../images/map_mobil.png);
+  width: 1300px;
+z-index: 2;
+  position: relative;
+  margin: 0 auto;
+      top: 650px;
+  z-index: 2;
+
+}
+.map_mobil2{
+  content:url(../images/map_mobil2.png);
+  width: 1300px;
+
+  position: relative;
+  margin: 0 auto;
+      top: 133px;
+}
+.map_mobil3{
+  content:url(../images/map_mobil3.png);
+  width: 1300px;
+
+  position: relative;
+  margin: 0 auto;
+      top: -380px;
+}
+
+.animate{
+  transition: 2s ease-in-out;
+animation-fill-mode: forwards;
+animation-duration: 1s;
+}
+
+.map_mobil2.animate{
+  transform: translate(-3em,0);
+}
+.map_mobil3.animate{
+  transform: translate(3em,0);
+}
+
+
+.map2_tekst{
+  position: relative;
+  text-align: center;
+  top: -220px;
+margin-right: -550px;
+}
+
+.map2_tekst h4{
+  margin: 20px;
+}
+.map2_tekst p{
+  margin: 20px;
+}
+
+.map2_mobil{
+  content:url(../images/map2_mobil.png);
+  width: 1500px;
+z-index: 2;
+  position: relative;
+  margin: 0 auto;
+      top: -550px;
+  z-index: 2;
+
+}
+.map2_mobil2{
+  content:url(../images/map2_mobil2.png);
+  width: 1500px;
+  position: relative;
+  margin: 0 auto;
+      top: -1233px;
+}
+
+.map2_mobil2.animate{
+  transform: translate(15em,0);
+}
+
+.tracking_tekst{
+    position: relative;
+    text-align: center;
+  top: -1105px;
+  left: -350px;
+  }
+
+.tracking_tekst h4{
+    margin: 25px;
+
+  }
+.tracking_tekst p{
+    margin: 25px;
+  }
+
+
+  .tracking_mobil{
+    content:url(../images/tracking.png);
+    width: 1300px;
+  z-index: 2;
+    position: relative;
+    margin: 0 auto;
+        top: -1310px;
+
+
+  }
+  .tracking_screen{
+    content:url(../images/tracking_screen.png);
+    width: 1300px;
+    position: relative;
+    margin: 0 auto;
+        top: -1902px;
+            z-index: 2;
+  }
+
+  .tracking_screen2{
+    content:url(../images/tracking_screen2.png);
+    width: 1300px;
+    position: relative;
+    margin: 0 auto;
+        top: -2490px;
+        z-index: 2;
+  }
+
+  .tracking_screen.animate{
+    transform: translate(0,-6em);
+  }
+
+  .tracking_screen2.animate{
+    transform: translate(0,-12em);
+  }
+
+
+  .save_tekst{
+      position: relative;
+      text-align: center;
+    top: -2155px;
+margin-right: -550px;
+    }
+
+  .save_tekst h4{
+      margin: 25px;
+
+    }
+  .save_tekst p{
+      margin: 25px;
+    }
+
+    .save{
+      content:url(../images/save.png);
+      width: 1300px;
+    z-index: 2;
+      position: relative;
+      margin: 0 auto;
+          top: -2521px;
+      z-index: 2;
+
+    }
+    .save2{
+      content:url(../images/save2.png);
+      width: 1300px;
+      position: relative;
+      margin: 0 auto;
+          top: -3110px;
+
+    }
