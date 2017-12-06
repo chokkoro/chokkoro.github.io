@@ -136,29 +136,29 @@ left: -300px;
 
 .map_mobil{
   content:url(../images/map_mobil.png);
-  width: 1400px;
+  width: 1300px;
 z-index: 2;
   position: relative;
   margin: 0 auto;
-      top: 680px;
+      top: 650px;
   z-index: 2;
 
 }
 .map_mobil2{
   content:url(../images/map_mobil2.png);
-  width: 1400px;
+  width: 1300px;
 
   position: relative;
   margin: 0 auto;
-      top: 125px;
+      top: -20px;
 }
 .map_mobil3{
   content:url(../images/map_mobil3.png);
-  width: 1400px;
+  width: 1300px;
 
   position: relative;
   margin: 0 auto;
-      top: -435px;
+      top: -690px;
 }
 
 .animate{
@@ -178,7 +178,7 @@ animation-duration: 1s;
 .map2_tekst{
   position: relative;
   text-align: center;
-  top: -328px;
+  top: -668px;
 margin-right: -550px;
 }
 
@@ -191,20 +191,20 @@ margin-right: -550px;
 
 .map2_mobil{
   content:url(../images/map2_mobil.png);
-  width: 1400px;
+  width: 1300px;
 z-index: 2;
   position: relative;
   margin: 0 auto;
-      top: -680px;
+      top: -985px;
   z-index: 2;
 
 }
 .map2_mobil2{
   content:url(../images/map2_mobil2.png);
-  width: 1400px;
+  width: 1300px;
   position: relative;
   margin: 0 auto;
-      top: -1315px;
+      top: -1575px;
 }
 
 .map2_mobil2.animate{
@@ -214,7 +214,7 @@ z-index: 2;
 .tracking_tekst{
     position: relative;
     text-align: center;
-  top: -1124px;
+  top: -1375px;
   left: -350px;
   }
 
@@ -229,45 +229,45 @@ z-index: 2;
 
   .tracking_mobil{
     content:url(../images/tracking.png);
-    width: 1400px;
+    width: 1300px;
   z-index: 2;
     position: relative;
     margin: 0 auto;
-        top: -1350px;
+        top: -1590px;
 
 
   }
   .tracking_screen{
     content:url(../images/tracking_screen.png);
-    width: 1400px;
+    width: 1300px;
     position: relative;
     margin: 0 auto;
-        top: -1985px;
+        top: -2180px;
             z-index: 2;
   }
 
   .tracking_screen2{
     content:url(../images/tracking_screen2.png);
-    width: 1400px;
+    width: 1300px;
     position: relative;
     margin: 0 auto;
-        top: -2620px;
+        top: -2770px;
         z-index: 2;
   }
 
   .tracking_screen.animate{
-    transform: translate(0,-7em);
+    transform: translate(0,-6em);
   }
 
   .tracking_screen2.animate{
-    transform: translate(0,-14em);
+    transform: translate(0,-12em);
   }
 
 
   .save_tekst{
       position: relative;
       text-align: center;
-    top: -360px;
+    top: -600px;
 margin-right: -550px;
     }
 
@@ -281,30 +281,22 @@ margin-right: -550px;
 
     .save{
       content:url(../images/save.png);
-      width: 1400px;
+      width: 1300px;
     z-index: 2;
       position: relative;
       margin: 0 auto;
-          top: -790px;
+          top: -1060px;
       z-index: 2;
 
     }
     .save2{
       content:url(../images/save2.png);
-      width: 1400px;
+      width: 1300px;
       position: relative;
       margin: 0 auto;
-          top: -1425px;
+          top: -1650px;
 
     }
 .vid_last{
 top: -2000px;
-}
-.footer{
-  content:url(../images/footer.png);
-  width: 1500px;
-  position: relative;
-  margin: 0 auto;
-      top: 155px;
-
 }
