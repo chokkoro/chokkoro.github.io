@@ -185,7 +185,7 @@ animation-duration: 1s;
 .map2_tekst{
   position: relative;
 
-  top: -703px;
+  top: -750px;
 
 }
 
@@ -221,7 +221,7 @@ z-index: 2;
 .tracking_tekst{
     position: relative;
     text-align: center;
-  top: -1409px;
+  top: -1453px;
   left: -350px;
   }
 
@@ -337,7 +337,7 @@ margin-top: -250px;
 text-align: center;
   list-style: none;
   margin: 5px;
-  margin-top: 450px;
+  margin-top: 408px;
   margin-left: -1145px;
 
 }
